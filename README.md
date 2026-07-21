@@ -40,11 +40,11 @@ First, install the dependencies and run the development server:
 
 npm install
 npm run dev
-# or
+ or
 yarn dev
-# or
+ or
 pnpm dev
-# or
+ or
 bun dev
 
 
