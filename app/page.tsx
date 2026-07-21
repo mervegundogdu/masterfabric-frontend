@@ -36,7 +36,7 @@ export default function Home() {
   const loadModel = async () => {
     try {
       setStatusText("Fetching Gemma 2 2B Model...");
-      const clientEngine = await CreateMLCEngine("Gemma-2-2b-it-q4f16_1", {
+      const clientEngine = await CreateMLCEngine("gemma-2b-it-q4f16_1", {
         initProgressCallback: (progress) => {
           setStatusText(`Loading: ${progress.text}`);
           setProgressPercent(Math.round(progress.progress * 100));
@@ -205,7 +205,7 @@ export default function Home() {
               <div className="flex-1 w-full">
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-[10px] uppercase tracking-wider font-bold text-purple-400 bg-purple-950/80 px-2 py-0.5 rounded border border-purple-500/20">Web-LLM Engine</span>
-                  <span className="text-xs text-gray-400 font-medium">Gemma-2-2b-it-q4f16_1</span>
+                  <span className="text-xs text-gray-400 font-medium">gemma-2b-it-q4f16_1</span>
                 </div>
                 <p className="text-sm text-white font-medium mt-1">{statusText}</p>
                 {progressPercent > 0 && progressPercent < 100 && (
