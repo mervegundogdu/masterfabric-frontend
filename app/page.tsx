@@ -127,7 +127,7 @@ export default function Home() {
           </div>
           <div>
             <h1 className="text-xl font-bold text-white tracking-wider flex items-center gap-2">
-              MASTERFABRIC <span className="text-purple-400 font-light text-sm bg-purple-950/60 border border-purple-500/30 px-2 py-0.5 rounded-md">AI GATEWAY</span>
+              MASTERMIND <span className="text-purple-400 font-light text-sm bg-purple-950/60 border border-purple-500/30 px-2 py-0.5 rounded-md">AI GATEWAY</span>
             </h1>
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function Home() {
                 </svg>
               </div>
               <h2 className="text-lg font-bold text-white">Secure Access Gateway</h2>
-              <p className="text-xs text-gray-400 mt-1">Authenticate credentials to access MasterFabric Gateway</p>
+              <p className="text-xs text-gray-400 mt-1">Authenticate credentials to access MasterMind Gateway</p>
             </div>
             
             {isLoggedIn ? (
@@ -183,7 +183,7 @@ export default function Home() {
               <form onSubmit={handleLogin} className="space-y-4">
                 <div>
                   <label className="block text-xs font-medium text-gray-400 mb-1.5">Email Address</label>
-                  <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full text-sm p-3 rounded-xl bg-[#090d16] border border-gray-800 text-white focus:outline-none focus:border-purple-500 transition-colors" placeholder="user@masterfabric.co" required />
+                  <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full text-sm p-3 rounded-xl bg-[#090d16] border border-gray-800 text-white focus:outline-none focus:border-purple-500 transition-colors" placeholder="user@mastermind.co" required />
                 </div>
                 <div>
                   <label className="block text-xs font-medium text-gray-400 mb-1.5">Password</label>
