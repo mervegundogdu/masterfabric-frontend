@@ -38,13 +38,14 @@ It enables client-side local inference using **WebGPU** (via `@mlc-ai/web-llm`) 
 
 First, install the dependencies and run the development server:
 
+```bash
 npm install
 npm run dev
- or
+# or
 yarn dev
- or
+# or
 pnpm dev
- or
+# or
 bun dev
 
 
